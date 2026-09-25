@@ -522,6 +522,8 @@ section {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto;
         gap: 30px;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 
     .hero-content {
