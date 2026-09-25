@@ -547,13 +547,16 @@ section {
         flex-direction: column;
         width: fit-content;
     }
+}
 
-    /* Final desktop hero spacing */
+/* Desktop hero spacing */
 
 .hero {
     padding-left: 8%;
     padding-right: 8%;
 }
+
+/* Keep mobile spacing */
 
 @media (max-width: 700px) {
 
@@ -562,18 +565,4 @@ section {
         padding-right: 24px;
     }
 
-}
-    /* Final hero spacing */
-
-.hero {
-    padding-left: 8% !important;
-    padding-right: 8% !important;
-}
-
-@media (max-width: 700px) {
-    .hero {
-        padding-left: 24px !important;
-        padding-right: 24px !important;
-    }
-}
 }
