@@ -457,6 +457,7 @@ section {
     width: 320px;
     height: 320px;
     flex-shrink: 0;
+    margin-left: 35px;
     border-radius: 50%;
     overflow: hidden;
     border: 2px solid #8ca7ff;
