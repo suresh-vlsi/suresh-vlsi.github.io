@@ -507,3 +507,42 @@ section {
     transform: scale(1.10);
     object-position: center top;
 }
+
+/* Final responsive hero fix */
+
+.hero-photo {
+    transform: none;
+    justify-self: end;
+}
+
+@media (max-width: 700px) {
+
+    .hero {
+        min-height: 75vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        gap: 30px;
+    }
+
+    .hero-content {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .hero-photo {
+        grid-column: 1;
+        grid-row: 2;
+        width: 180px;
+        height: 180px;
+        transform: none;
+        justify-self: center;
+        margin-top: 0;
+    }
+
+    .buttons {
+        grid-column: 1;
+        grid-row: 3;
+        flex-direction: column;
+        width: fit-content;
+    }
+}
