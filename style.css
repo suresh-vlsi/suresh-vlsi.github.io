@@ -468,6 +468,6 @@ section {
     height: 100%;
     object-fit: cover;
     display: block;
-    transform: scale(1.08);
+    transform: scale(1.15);
     object-position: center top;
 }
