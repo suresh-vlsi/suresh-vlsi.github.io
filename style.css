@@ -225,6 +225,13 @@ footer {
         flex-direction: column;
         width: fit-content;
     }
+
+    .hero-photo {
+    width: 220px;
+    height: 220px;
+    transform: none;
+    margin-top: 30px;
+}
 }
 
 /* About */
@@ -469,6 +476,6 @@ section {
     height: 100%;
     object-fit: cover;
     display: block;
-    transform: scale(1.00);
+    transform: scale(1.10);
     object-position: center top;
 }
